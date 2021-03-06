@@ -10,7 +10,7 @@ public class SessionController {
     @RequestMapping("/set")
     public String setSession(HttpSession session) {
         session.setAttribute("name", "5062");
-        return "success";
+        return "success成功";
     }
 
     @RequestMapping("/get")

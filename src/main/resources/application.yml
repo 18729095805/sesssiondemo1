@@ -6,5 +6,5 @@ spring:
     host: 192.168.188.129
     port: 6379
   session:
-    store-type: redis  #session存储方式
-    timeout: 3600     #session过期时间 秒
+    store-type: redis  #session瀛樺偍
+    timeout: 3600     #session 瓒呮椂鏃堕棿
